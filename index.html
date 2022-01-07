@@ -92,6 +92,7 @@
                   <form
                   id="contact"
                   onsubmit="return postToGoogle();"
+                  method="post"
                 >
                     <div class="row justify-content-center pt-3">
                       <div class="col-md-6">
@@ -250,8 +251,6 @@
           var field6 = $("#CustomerBaseSize").val();
           var field7 = $("#AverageSpend").val();
           var field8 = $("#CurrentMarketingNeeds").val();
-    console.log(field1);
-    console.log(field2);
           $.ajax({
             url: "{https://docs.google.com/forms/u/0/d/e/1FAIpQLSd6g4p1LzGWC55aYAMufOsJATVowcdx4HpKJ6Bf_bi1CcMrnw/formResponse}",
               
