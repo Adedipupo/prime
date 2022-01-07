@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, form, label, ul, ol, dl, fieldset, address {
+    margin-bottom: 1em;
+}
+
+.left, .right {
+    height: 100vh;
+  }
+.slide1{
+   margin-top: 10px;
+   background-color: #f2f2f2;
+}
+.logo {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.primeContent{
+    margin-left: 150px;
+}
+.primeOne {
+  margin-top: 80px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
+  color: #073763;
+}  
+.primeSmall{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #43536A;
+opacity: 0.7;
+}
+.bullet-class{
+    margin-top: 20px;
+}
+li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    margin-left: -33px;
+    list-style:none;
+    padding: 5px;
+    color: #43536A;
+  }
+  
+  li:before {
+    color:#12B76A;
+    font-size:15px;
+  }
+  
+  li.one:before {
+    content: "✅";
+    background-color: #D1FADF;
+    border-radius: 1ch;
+    padding-inline: 1ch;
+    margin-inline-end: 1ch;  
+     padding-right: 5px; 
+  }
+.footer-class{
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: #7F92A4;
+margin-top: 80px;
+}
+.footer-line{
+    margin-top: 5px;
+    color: #7F92A4
+}
+.footer-image{
+    margin-left: 40px;
+    padding-left: 35px;
+}
+  .slide2 {
+      background-color: #FFFFFF;
+  }
+  .createOne{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 140px;
+    color: #1D2B36;
+    width: 100%;
+  }
+  .form-control {
+    width: 100%;
+    height: 50px;
+  }
+  .form-select {
+    width: 100%;
+    height: 50px;
+  }
+  .signOne{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #556575;
+  }
+  .form-footer{
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .submit-btn{
+      margin-top: 10px;
+      width: 100%;
+  }
