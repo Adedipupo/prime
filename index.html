@@ -52,7 +52,7 @@
               </ul>
             </div>
           </div>
-          <footer>
+          <footer class="h-25">
             <div class="container" align="center">
               <p class="footer-class">Trusted by your favourite brands</p>
             </div>
@@ -60,21 +60,21 @@
               <hr />
             </div>
             <div class="row container footer-image">
-              <div class="col-lg-2">
+              <div class="col-md-2">
               </div>
-              <div class="col-lg-2">
+              <div class="col-md-2">
                 <img src="./three.svg" class="three" alt="THREE." />
               </div>
-              <div class="col-lg-2">
+              <div class="col-md-2">
                 <img src="./four.svg" class="four" alt="Four." />
               </div>
-              <div class="col-lg-2">
+              <div class="col-md-2">
                 <img src="./one.svg" class="one" alt="ONE." />
               </div>
-              <div class="col-lg-2">
+              <div class="col-md-2">
                 <img src="./two.svg" class="two" alt="TWO." />
               </div>
-              <div class="col-lg-2">
+              <div class="col-md-2">
               </div>
             </div>
           </footer>
@@ -92,7 +92,7 @@
                   <form
                   id="contact"
                   onsubmit="return postToGoogle();"
-                  method="POST"
+                  method="post"
                 >
                     <div class="row justify-content-center pt-3">
                       <div class="col-md-6">
@@ -251,9 +251,8 @@
           var field6 = $("#CustomerBaseSize").val();
           var field7 = $("#AverageSpend").val();
           var field8 = $("#CurrentMarketingNeeds").val();
-          
           $.ajax({
-            url: "{https://docs.google.com/forms/u/0/d/e/1FAIpQLSd6g4p1LzGWC55aYAMufOsJATVowcdx4HpKJ6Bf_bi1CcMrnw/formResponse}",
+            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSd6g4p1LzGWC55aYAMufOsJATVowcdx4HpKJ6Bf_bi1CcMrnw/formResponse",
               
             data: {
               "entry.434859170": field1,
