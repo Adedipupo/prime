@@ -30,8 +30,7 @@
     font-family: 'BRFIRMA', sans-serif;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
-    overflow-y: hidden;
-    height: auto;
+    overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p, blockquote, form, label, ul, ol, dl, fieldset, address {
