@@ -114,7 +114,7 @@ option[value=""][disabled] {
 .overlay {
  position: absolute;
  top: 1px;
- bottom: 1px;
+ /* bottom: 2px; */
  height: 100%;
  background: rgb(0, 0, 0);
  background: rgba(0, 0, 0, 0.5);
@@ -127,7 +127,7 @@ option[value=""][disabled] {
 .bg-img{
   position: relative;
   width: 100%;
-  height: 99vh;
+  height: 100%;
   /* opacity: 0.2; */
   background-image:
   /* linear-gradient(to bottom, rgba(99, 150, 101, 0.7), rgba(143, 83, 65, 0.73)), */
@@ -178,11 +178,11 @@ option[value=""][disabled] {
 .card {
   padding: 10px 10px;
   margin-top: 10px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   border: 0.9rem solid #fff;
   border-radius: 10px;
   width: 100%;
-  height: 90vh;
+  height: 80%;
   box-shadow: 0 5px 10px 0 rgba(190, 186, 186, 0.2)
 }
 .side-contact{

@@ -53,7 +53,6 @@ function CAPI(event, eventData) {
   const body = {
     event: event,
     event_data: eventData,
-    event_name: 'buttonClicked',
     event_id: "signupbtn" + sessionStorage.getItem("timeStamp"),
     event_time: Math.round(new Date().getTime() / 1000),
     test_event_code: "TEST11620",
@@ -77,7 +76,7 @@ function CAPI(event, eventData) {
 
 let el = document.getElementById("submit-btn");
 el.addEventListener("click", () => {
-  CAPI('buttonClicked', {promotion: 'sign-up button clicked'})
+  CAPI('Purchase', {promotion: 'sign-up button clicked'})
 })
 
 function onSubmit(event) {
